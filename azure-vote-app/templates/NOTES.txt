@@ -1,0 +1,3 @@
+Azure Vote App déployé avec succès !
+Récupérez l'IP publique avec :
+  kubectl get svc azure-vote-app-frontend -n azure-vote

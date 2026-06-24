@@ -1,0 +1,10 @@
+# Helm
+*.tgz
+charts/
+.helmignore
+
+# Kube
+*.kubeconfig
+
+# Repo imbriqué
+voting-app/

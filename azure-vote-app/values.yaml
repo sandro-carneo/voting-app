@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: acrvotingcarneo.azurecr.io/azure-vote-front
+  tag: "v1"
+  pullPolicy: Always
+
+service:
+  type: LoadBalancer
+  port: 80
+
+redis:
+  host: redis-master.redis.svc.cluster.local
+
+vote1Value: "Cats"
+vote2Value: "Dogs"
+title: "Voting App"
